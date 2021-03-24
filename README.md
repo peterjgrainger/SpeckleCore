@@ -25,9 +25,17 @@ Pretty much all of speckle's connectors are using this library, including:
 - Dynamo
 - Unity (with flavours)
 
-## Example usage
+## Usage
 
-Please check [out the docs and sample starter project on the speckle website](https://speckle.systems/docs/developers/dotnet-sdk)!
+Add the NuGet to your project
+
+```
+dotnet add package SpecCxCore
+```
+
+## Creating a new NuGet
+
+Tag this repository with the version you want the NuGet to be. Tag must have four `.` separated numbers `0.0.0.0`
 
 ## License 
 MIT
