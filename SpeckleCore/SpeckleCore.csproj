@@ -6,11 +6,11 @@
     <Authors>Speckle</Authors>
     <Company>Speckle</Company>
     <Product>SpeckleCore</Product>
-    <Description>.NET base for the speckle api</Description>
-    <Summary>.NET base for the speckle api</Summary>
+    <Description>.NET base for the speckle api (community edition)</Description>
+    <Summary>.NET base for the speckle api (community edition)</Summary>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Copyright>Copyright © Speckle</Copyright>
-    <AssemblyName>SpeckleCore</AssemblyName>
+    <AssemblyName>SpecCxCore</AssemblyName>
     <RootNamespace>SpeckleCore</RootNamespace>
     <PackageProjectUrl>https://speckle.works</PackageProjectUrl>
     <RepositoryUrl>https://github.com/speckleworks/SpeckleCore</RepositoryUrl>

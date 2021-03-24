@@ -7,13 +7,13 @@
     <authors>$author$</authors>
     <owners>$author$</owners>
     <license type="expression">MIT</license>
-    <projectUrl>https://github.com/speckleworks/SpeckleCore</projectUrl>
+    <projectUrl>https://github.com/arup-group/SpeckleCore</projectUrl>
     <iconUrl>https://avatars2.githubusercontent.com/u/31284874</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes></releaseNotes>
     <copyright>$copyright$</copyright>
-    <tags>speckle core</tags>
+    <tags>speckle core community cx</tags>
     <dependencies>
       <dependency id="WebSocketSharp-NonPreRelease" version="1.0.0" />
       <dependency id="sqlite-net-pcl" version="1.5.231" />
