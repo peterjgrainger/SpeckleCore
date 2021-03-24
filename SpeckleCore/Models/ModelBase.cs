@@ -395,9 +395,23 @@ namespace SpeckleCore
     [Newtonsoft.Json.JsonProperty( "type", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore )]
     public virtual string Type { get; set; } = "Object";
 
+    private string hash;
+
     /// <summary>Object's unique hash.</summary>
     [Newtonsoft.Json.JsonProperty( "hash", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore )]
-    public string Hash { get; set; }
+    public string Hash 
+    {
+      get 
+      {
+        hash = null;
+        hash = GetMd5FromObject(this);
+        return hash; 
+      }
+      set 
+      { 
+        hash = value; 
+      }   
+    }
 
     /// <summary>Object's transform.</summary>
     [Newtonsoft.Json.JsonProperty( "transform", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore )]
