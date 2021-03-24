@@ -1,19 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
-    <Authors>https://speckle.works</Authors>
+    <Authors>SpecCx</Authors>
     <LangVersion>8.0</LangVersion>
-    <Authors>Speckle</Authors>
-    <Company>Speckle</Company>
-    <Product>SpeckleCore</Product>
-    <Description>.NET base for the speckle api (community edition)</Description>
-    <Summary>.NET base for the speckle api (community edition)</Summary>
+    <Authors>SpecCx</Authors>
+    <Company>SpecCx</Company>
+    <Product>SpecCxCore</Product>
+    <Description>.NET base for the api (community edition)</Description>
+    <Summary>.NET base for the api (community edition)</Summary>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <Copyright>Copyright © Speckle</Copyright>
+    <Copyright></Copyright>
     <AssemblyName>SpecCxCore</AssemblyName>
     <RootNamespace>SpeckleCore</RootNamespace>
-    <PackageProjectUrl>https://speckle.works</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/speckleworks/SpeckleCore</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/arup-group/SpeckleCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/arup-group/SpeckleCore</RepositoryUrl>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

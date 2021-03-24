@@ -13,7 +13,7 @@
     <description>$description$</description>
     <releaseNotes></releaseNotes>
     <copyright>$copyright$</copyright>
-    <tags>speckle core community cx</tags>
+    <tags>speccx core community cx</tags>
     <dependencies>
       <dependency id="WebSocketSharp-NonPreRelease" version="1.0.0" />
       <dependency id="sqlite-net-pcl" version="1.5.231" />
