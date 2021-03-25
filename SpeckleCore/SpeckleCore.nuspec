@@ -8,7 +8,6 @@
     <owners>$author$</owners>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/arup-group/SpeckleCore</projectUrl>
-    <iconUrl>https://avatars2.githubusercontent.com/u/31284874</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes></releaseNotes>
