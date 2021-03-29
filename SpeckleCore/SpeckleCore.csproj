@@ -5,12 +5,12 @@
     <LangVersion>8.0</LangVersion>
     <Authors>SpecCx</Authors>
     <Company>SpecCx</Company>
-    <Product>SpecCxCore</Product>
+    <Product>pgcoredotnet5</Product>
     <Description>.NET base for the api (community edition)</Description>
     <Summary>.NET base for the api (community edition)</Summary>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Copyright></Copyright>
-    <AssemblyName>SpecCxCore</AssemblyName>
+    <AssemblyName>pgcoredotnet5</AssemblyName>
     <RootNamespace>SpeckleCore</RootNamespace>
     <PackageProjectUrl>https://github.com/arup-group/SpeckleCore</PackageProjectUrl>
     <RepositoryUrl>https://github.com/arup-group/SpeckleCore</RepositoryUrl>
