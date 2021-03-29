@@ -19,7 +19,11 @@ jobs:
         dotnet-version: 3.1.x
 
     - name: Build solution and generate NuGet package
-      run: dotnet pack -c Release -o out -p:PackageVersion=$env:GITHUB_REF.Split("/")[-1]
+      run: |
+        echo $env:GITHUB_REF
+        $tag = $env:GITHUB_REF.Split("/")[-1]
+        echo $tag
+        dotnet pack -c Release -o out -p:PackageVersion=$tag
       working-directory: SpeckleCore
       
     - name: Upload Nuget
