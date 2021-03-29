@@ -30,7 +30,7 @@ Pretty much all of speckle's connectors are using this library, including:
 Add the NuGet to your project
 
 ```
-dotnet add package pgcoredotnet3
+dotnet add package pgcoredotnet5
 ```
 
 ## Creating a new NuGet
