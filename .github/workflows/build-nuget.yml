@@ -16,7 +16,7 @@ jobs:
         dotnet-version: 3.1.x
 
     - name: Build solution and generate NuGet package
-      run: dotnet pack -c Release -o out -p:PackageVersion=${GITHUB_REF##*/}
+      run: dotnet pack -c Release -o out -p:PackageVersion=1.2.3.4
       working-directory: SpeckleCore
       
     - name: Upload Nuget
